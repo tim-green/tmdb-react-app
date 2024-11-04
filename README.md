@@ -1,0 +1,1 @@
+**DOMAT**  or **Database of Movie and TV** is a comprehensive movie information app that leverages the TMDB (The Movie Database) API to provide users with detailed data on movies, including plot summaries, ratings, cast and crew details, trailers, and more. 
