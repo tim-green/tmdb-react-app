@@ -1,6 +1,6 @@
 **Otter**  or **Over The Top Entertainment Research** is a comprehensive movie information app that leverages the TMDB (The Movie Database) API to provide users with detailed data on movies, including plot summaries, ratings, cast and crew details, trailers, and more. 
 
-Built using **React**, **Redux**, and **Vite**. **DOMAT** offers a seamless, interactive experience for movie and television enthusiasts.
+Built using **React**, **Redux**, and **Vite**. **Otter** offers a seamless, interactive experience for movie and television enthusiasts.
 
 
 ## **Features at a Glance**
