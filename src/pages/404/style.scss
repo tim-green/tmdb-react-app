@@ -1,0 +1,33 @@
+/*
+
+  404 Page Styles 
+  + Tim Green
+  otter.timgreen.xyz
+
+*/
+
+.pageNotFound {
+    height: 700px;
+    padding-top: 200px;
+    .contentWrapper {
+        text-align: center;
+        color: var(--otter-yellow);
+        display: flex;
+        flex-direction: column;
+        .bigText {
+            font-size: 150px;
+            font-weight: 700;
+            font-family: 'Raleway';
+        }
+        .smallText {
+            font-size: 44px;
+            margin-top: 25px;
+        }
+        .error0{
+            text-decoration: underline 5px var(--otter-yellow);
+            // background: url(../../assets/images/otter-eyes-yellow.svg) no-repeat;
+            // background-size: 34%;
+            // background-position: bottom;
+        }
+    }
+}
