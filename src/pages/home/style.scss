@@ -1,0 +1,26 @@
+/*
+
+  Carousel Styles 
+  + Tim Green
+  otter.timgreen.xyz
+
+*/
+
+.carouselSection {
+  position: relative;
+  margin-bottom: 70px;
+  & > .contentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .carouselTitle {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 800;
+    margin: 60px 0 20px;
+    // text-decoration: 3px  underline var(--otter-yellow) ;
+    
+  }
+}
