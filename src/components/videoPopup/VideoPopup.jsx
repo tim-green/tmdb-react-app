@@ -1,5 +1,8 @@
 import React from "react";
 import ReactPlayer from "react-player/youtube";
+import {
+    FaRegCircleXmark,
+  } from "react-icons/fa6";
 
 import "./style.scss";
 
@@ -13,7 +16,7 @@ const VideoPopup = ({ show, setShow, videoId, setVideoId }) => {
             <div className="opacityLayer" onClick={hidePopup}></div>
             <div className="videoPlayer">
                 <span className="closeBtn" onClick={hidePopup}>
-                    Close
+                    Close 
                 </span>
                 <ReactPlayer
                     url={`https://www.youtube.com/watch?v=${videoId}`}
