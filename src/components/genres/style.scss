@@ -1,0 +1,26 @@
+/*
+
+  Genres Styles 
+  + Tim Green
+  otter.timgreen.xyz
+
+*/
+
+.genres {
+  display: flex;
+  gap: 5px;
+  .genre {
+    background-color: var(--otter-yellow);
+    padding: 4px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    color: var(--otter-black);
+    white-space: nowrap;
+    transition: ease-in-out 450ms;
+    font-weight: 600;
+    &:hover{
+      background-color: var(--otter-black);
+      color: var(--otter-yellow);
+    }
+  }
+}
