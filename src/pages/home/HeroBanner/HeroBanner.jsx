@@ -35,7 +35,7 @@ const HeroBanner = () => {
 
       <ContentWrapper>
         <section className="heroBannerContent">
-          <span className="title">Welcome Otters</span>
+          <span className="title">Welcome to Otter</span>
           <span className="subTitle">
             Millions of movies, TV shows and people to discover. Explore now.
           </span>
