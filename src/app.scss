@@ -1,0 +1,97 @@
+/*
+
+  Core App Styles 
+  + Tim Green
+  otter.timgreen.xyz
+
+*/
+
+:root {
+  // Raleway used for Otter logo
+  // font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  // otter branding colours
+  --otter-yellow: #f7d862;
+  --otter-yellow-2:#feea3b;
+  --otter-black: #1f1f1f;
+  --white: #f1f1f1;
+  --black: #000000;
+  --black2: #041226;
+  --black3: #000000;
+  --black-lighter: #1f1f1f;
+  --black-light: #1f1f1f;
+  --pink: #b41147;
+  --orange: #f89e00;
+  --gradient: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  --gradient-2: linear-gradient(98.37deg, #f7d862 0.99%, #feea3b 100%);
+  --gradient-3: linear-gradient(98.37deg, #1f1f1f 0.99%, #0d0d0d 100%);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection{
+  background-color: var(--black);
+  color: var(--otter-yellow);
+}
+
+body {
+  background-color: var(--otter-black);
+  scrollbar-color: var(--otter-yellow) transparent;
+  scrollbar-width: thin;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--otter-yellow);
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(#f7d862, 0) 0,
+      rgba(#f7d862, 0.2) 20%,
+      rgba(#f7d862, 0.5) 60%,
+      rgba(#f7d862, 0)
+    );
+    animation: shimmer 2s infinite;
+    content: "";
+  }
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
