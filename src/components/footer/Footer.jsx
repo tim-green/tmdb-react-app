@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa6";
 
 import ContentWrapper from "../contentwrapper/ContentWrapper";
+import tmdbLogo from "../../assets/images/tmdb-logo-copy-black.svg";
 
 import "./style.scss";
 
@@ -26,6 +27,11 @@ const Footer = () => {
           This is a movie info app where you can browse movies,tv shows so
           please feel free to use the search bar for the movies you want to
           review
+        </div>
+        <div className="poweredBy">
+        <div className="tmdb">
+          <img src={tmdbLogo} alt="powered by TMDB" title="Powered by TMDB"  />
+        </div>
         </div>
         <div className="socialIcons">
           {/* <span>Tough Guys in Sweet Pants:</span> */}
