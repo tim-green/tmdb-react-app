@@ -11,6 +11,10 @@ import Details from "./pages/details/Details";
 import { fetchDataFromApi } from "./utils/api";
 import SearchResult from "./pages/searchResult/SearchResult";
 
+import Clarity from '@microsoft/clarity';
+const projectId = "owr4e650s4"
+Clarity.init(projectId);
+
 const App = () => {
   const dispatch = useDispatch();
 
