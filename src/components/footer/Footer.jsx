@@ -24,13 +24,11 @@ const Footer = () => {
           <li className="menuItem">Terms Of Use</li>
         </ul>
         <div className="infoText">
-          This is a movie info app where you can browse movies,tv shows so
-          please feel free to use the search bar for the movies you want to
-          review
+          Powered by
         </div>
         <div className="poweredBy">
         <div className="tmdb">
-          <img src={tmdbLogo} alt="powered by TMDB" title="Powered by TMDB"  />
+         <a href="https://developer.themoviedb.org/docs/getting-started" target="_blank"><img src={tmdbLogo} alt="powered by TMDB" title="Powered by TMDB"  /></a> 
         </div>
         </div>
         <div className="socialIcons">
