@@ -1,0 +1,22 @@
+/*
+
+  Circle Rating Styles 
+  + Tim Green
+  otter.timgreen.xyz
+
+*/
+
+.circleRating {
+    background-color: var(--black);
+    border-radius: 50%;
+    padding: 2px;
+    .CircularProgressbar-text {
+        font-size: 34px;
+        font-weight: 700;
+        fill: var(--black);
+        dominant-baseline: central;
+    }
+    .CircularProgressbar-trail {
+        stroke: transparent;
+    }
+}
