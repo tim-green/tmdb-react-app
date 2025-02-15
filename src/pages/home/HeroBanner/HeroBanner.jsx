@@ -24,11 +24,13 @@ const HeroBanner = () => {
     navigate(`/search/${query}`);
   };
 
+
   return (
     <main className="heroBanner">
       {!loading && (
         <div className="backdrop-img">
           <Img src={background} />
+          {/* <Img src="http://image.tmdb.org/t/p/original/eHu1ZxFPmqyhnait9VdsOQBEFOk.jpg" />> */}
         </div>
       )}
       <div className="opacity-layer"></div>
