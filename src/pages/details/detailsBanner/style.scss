@@ -65,6 +65,11 @@
         @include md {
           max-width: 350px;
         }
+        &:hover{
+          filter:saturate(50%);
+          transition: all 0.7s ease-in-out;
+
+        }
       }
     }
     .right {
